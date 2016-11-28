@@ -6,7 +6,7 @@ echo "Executing inject_react_app_env.sh"
 # Fail immediately on non-zero exit code.
 set -e
 # Debug, echo every command
-#set -x
+set -x
 
 # Each bundle is generated with a unique hash name
 # to bust browser cache.
