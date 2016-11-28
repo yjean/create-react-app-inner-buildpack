@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Debug echo to ensure this file is called
+echo "Executing inject_react_app_env.sh"
+
 # Fail immediately on non-zero exit code.
 set -e
 # Debug, echo every command
