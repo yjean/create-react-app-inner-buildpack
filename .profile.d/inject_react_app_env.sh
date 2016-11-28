@@ -8,6 +8,9 @@ set -e
 # Debug, echo every command
 set -x
 
+# List files build
+ls -R /app/build/static/
+
 # Each bundle is generated with a unique hash name
 # to bust browser cache.
 js_bundle=/app/build/static/js/main.*.js
