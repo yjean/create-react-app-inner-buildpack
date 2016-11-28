@@ -59,4 +59,4 @@ export_env_dir "$ENV_DIR" '^(REACT_APP_|NODE_)'
 # Build the javascript bundle
 echo 'Run npm run build'
 npm run build
-echo 'Npm run build done'
+echo $?
