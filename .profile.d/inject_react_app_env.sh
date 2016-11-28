@@ -9,7 +9,7 @@ set -e
 set -x
 
 # List files build
-ls -R /app/build/static/
+# ls -R /app/build/static/
 
 # Each bundle is generated with a unique hash name
 # to bust browser cache.
